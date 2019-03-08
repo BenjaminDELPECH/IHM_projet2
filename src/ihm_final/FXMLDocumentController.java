@@ -29,7 +29,9 @@ public class FXMLDocumentController implements Initializable {
     
      
     final ObservableList<Student> data = FXCollections.observableArrayList(
-            new Student("Jacob", "Smith", "1990", "M1")
+            new Student("DELPECH", "Benjamin", "1996", "M1"),
+            new Student("AUDOUARD", "Luc", "1996", "M1"),
+            new Student("POULLOT", "Amandine", "1995", "M1")
     );
     @FXML
     private Label label;
